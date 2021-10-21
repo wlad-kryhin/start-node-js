@@ -1,0 +1,29 @@
+{
+  "name": "start-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlad-kryhin/start-node-js.git"
+  },
+  "author": "Vladyslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlad-kryhin/start-node-js/issues"
+  },
+  "homepage": "https://github.com/wlad-kryhin/start-node-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "uniqid": "^5.4.0"
+  }
+}
